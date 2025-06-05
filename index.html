@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator </title>
+<link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+     
+    <div class="Largest">
+        <div class="borderdiv">
+            <div class="header">
+                <h3 class="head">Calculator ji</h3>
+                <!-- <h3 class="head2"> kabhi kabhi to lagta ha </h3> -->
+                
+                <p class="para"> Exam ke sath bhe Exam ke baad bhe</p>
+                <!-- <p class="para2"> sala apun ich bhagwan ha </p> -->
+
+            </div>
+            <form action="" class="form1">
+                <div class="in1">
+                    <label for="num1">Enter 1st number :</label>
+                <input type="number" id="num1" placeholder="number likho janab" name="num1">
+                </div>
+                <br>
+             <div class="in2">
+                   <label for="num2">Enter 2nd number :</label>
+                <input type="number" id="num2" placeholder="number likho janab" name="num2">
+             </div>
+                <br>
+                
+              <div class="opearation">
+                   <label for="opearation">Operator :</label>
+                 <select name="dropdown" id="op">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                    <option value="%">%</option>
+                 </select>
+              </div>
+                 <br>
+                <div>
+                     <button class="sub" id="sub">Submit</button>
+                 <button class="sub" id="clear" onclick="Doit()">Clear</button>
+
+                </div>
+
+            </form>
+            <p id="result">Result</p>
+
+        </div>
+    </div>
+     <script  src="script.js"></script>
+
+     
+ </body>    
+ </html>
