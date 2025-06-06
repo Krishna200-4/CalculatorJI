@@ -16,6 +16,7 @@ form.addEventListener("submit" ,function(event){
     }
 
     // get input values
+    
     const num1 = Number(num1Input.value);
     const num2 = Number(num2Input.value);
     const operator = operatorselect.value;
@@ -63,4 +64,16 @@ form.addEventListener("submit" ,function(event){
 }
 
 
-// dark mode 
+// dark mode  implementation
+const togglebtn = document.getElementById("Toggle-dark");
+togglebtn.addEventListener('click', function(){
+   let dark1 =  document.body.classList.toggle('Dark-mode');
+
+    // change the toggle 
+    if(dark1){
+        togglebtn.textContent ="Light Mode";
+    }else{
+        togglebtn.textContent ="Dark Mode";
+    }
+
+});

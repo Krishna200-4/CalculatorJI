@@ -95,6 +95,23 @@
     transform: translateY(-2px);
 
 }
+.Dark-mode{
+    background-color: #121212;
+    color: white;
+ 
+}
+
+.Dark-mode input,
+.Dark-mode select,
+.Dark-mode button ,
+.Dark-mode .Largest ,
+.Dark-mode .borderdiv {
+    background-color:#1e1e1e;
+    color: white;
+    border: 1px solid #ccc;
+}
+
+
 
 
 
